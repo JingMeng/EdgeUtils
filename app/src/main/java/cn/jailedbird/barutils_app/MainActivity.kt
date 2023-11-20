@@ -13,6 +13,9 @@ import kotlinx.coroutines.launch
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        //ACTION bar 会影响的  导致没有办法沉浸，在  navigation-edge-sample 修改了这个主题
+        //Sunflower 的也是 Theme.MaterialComponents.DayNight.NoActionBar 来处理的
         edgeToEdge()
         setContentView(R.layout.activity_main)
         val job = lifecycleScope.launch {

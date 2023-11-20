@@ -24,6 +24,8 @@ import cn.jailedbird.edgeutils.marginBottomSystemWindowInsets
 
 /**
  * An activity that inflates a layout that has a NavHostFragment.
+ *
+ * 这个就是正常展示的，但是app下面的那个就无法正常展示数据
  */
 class MainActivity : AppCompatActivity() {
 
